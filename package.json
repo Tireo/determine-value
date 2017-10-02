@@ -1,12 +1,12 @@
 {
-  "name": "determineValue",
+  "name": "determine-value",
   "version": "1.0.0",
   "description": "Determine first defined value",
   "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/Tireo/determineValue.git"
+    "url": "https://github.com/Tireo/determine-value.git"
   },
   "author": {
     "name": "Łukasz Drożdż",

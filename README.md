@@ -1,4 +1,4 @@
-# determineValue
+# determine-value
 
 Extremely simple helper to determine first defined value.
 
@@ -9,7 +9,7 @@ It is basically a wrapper for "or chains" that treats null and 0 as set values i
 
 The problem with those is that they don't work when you want falsy values (for example: 0, "", null, false) to be treated as proper values.
 
-That is why determineValue was created. 
+That is why determine-value was created. 
 
 It basically returns first defined argument that is passed to it or undefined if one cannot be found.
 
@@ -17,15 +17,15 @@ It hardly has any code in itself but maybe someone will prefer to have it as an 
 
 ## Installation
 
-To install **determineValue** in your node project just run this command:
+To install **determine-value** in your node project just run this command:
 
 ```
-npm i determineValue
+npm i determine-value
 ```
 
 ## Usage
 
-    let determineValue = require('determineValue');
+    let determineValue = require('determine-value');
     
     let a, b, c = 1;
     
@@ -33,7 +33,7 @@ npm i determineValue
 
 or more commonly to determine default function argument values:
 
-    let determineValue = require('determineValue');
+    let determineValue = require('determine-value');
         
     let someFn = function(a, b, c){
         a = determineValue(a, 1); //set a to 1 if it's undefined
